@@ -4,12 +4,13 @@ const App = require('./App').default;
 
 // экспортируем метод для старта в спланке
 module.exports = {
-  start: function (props) {
+  start (props) {
 
     ReactDOM.render(
       (
         <App props={props} />
       ), // <App props={props} /> прокидываем пропсы в компонент (данные и библиотеки из Спланка)
+      // eslint-disable-next-line no-undef
       document.getElementById('root')
     );
   }

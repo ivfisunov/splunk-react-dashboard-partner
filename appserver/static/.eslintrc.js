@@ -15,7 +15,16 @@ module.exports = {
     "react/prefer-stateless-function": 0,
     "no-unused-vars": 0,
     "semi": "error",
-    "react/no-unused-state": 0
+    "react/no-unused-state": 0,
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
   },
   parser: "babel-eslint"
 }
