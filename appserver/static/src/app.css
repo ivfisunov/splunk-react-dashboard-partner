@@ -1,0 +1,12 @@
+body,
+.main-section-body {
+  background: #31373e;
+  color: whitesmoke;
+}
+
+/* общие стили для всего реакт приложения */
+.panel-body.html {
+  padding: 0 !important;
+  margin: 0;
+  background-color: #31373e;
+}
